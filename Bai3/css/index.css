@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: auto;
+    width: 1000px;
+    height: 650px;
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img{
+    margin: 20px auto auto auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

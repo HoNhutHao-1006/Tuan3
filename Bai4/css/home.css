@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid #000;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 0 50px;
+    border-bottom: 3px solid #dec27b;
+}
+
+.header-img img{
+    float: right;
+}
+
+.content{
+    display: flex;
+}
+
+.sidebar{
+    min-width: 190px;
+    height: auto;
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat-y;
+    opacity: 0.8;
+    padding: 0 10px;
+    float: left;
+}
+
+.sidebar-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #ad3ca1;
+}
+
+.sidebar-item-link{
+    text-decoration: none;
+    color: #ad3ca1;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.main-content{
+    width: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.block-1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.block-1-title{
+    margin-bottom: 20px;
+}
+
+.title-block-1{
+    color: #e3ba2f;
+}
+
+.content-block-1{
+    color: #ad3ca1;
+    font-size: 20px;
+}
+
+.article-border{
+    margin: 0px 12px;
+    background-color:beige;
+    width: 300px;
+    border-style: outset;
+    border-color: #d2691e;
+    border-width: 6px;
+    margin-bottom: 20px;
+    float: right;
+    margin-top: 20px;
+}
+
+.article-border h1{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #d2691e;
+
+}
+.article-border li{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.article-img{
+    margin-top: 20px;
+}
+
+.article-text{
+    color: #ad3ca1;
+    font-size: 20px;
+}
+
+.title-article-text{
+    color: #e3ba2f;
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-top: 3px solid #e3ba2f;
+    padding-top: 5px;
+}
+
+.footer-text{
+    color: #e3ba2f;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.article-box{
+    position: absolute;
+    font: 15px;
+    width: 170px;
+    border-style: inset;
+    padding: 5px;
+    background-color: beige;
+}
+.article-box-1{
+    top: 25%;
+    right: 30%;
+}
+.article-box-2{
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+.article-box-3{
+    right: 30%;
+    top: 80%;
+}
